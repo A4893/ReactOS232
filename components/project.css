@@ -1,0 +1,64 @@
+#projects {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #363636; /* match homepage */
+  color: 6260dd;
+  text-align: center;
+}
+
+.projectsTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6260dd;
+}
+
+.projectsDesc {
+  font-size: 1.1rem;
+  margin: 1rem auto 2rem auto;
+  max-width: 700px;
+  color: #6260dd;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column; /* vertical stack */
+  align-items: center;
+  gap: 2rem;
+}
+
+.projectCard {
+  background: #181717;
+  border-radius: 16px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 6px 14px 6260dd(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+}
+
+.projectImg {
+  width: 70px;
+  margin-bottom: 1rem;
+}
+
+.projectCard h2 {
+  font-size: 1.3rem;
+  color: #6260dd;
+  margin-bottom: 0.5rem;
+}
+
+.projectCard p {
+  font-size: 1rem;
+  color: #6260dd;
+}
+#skill {
+  padding: 4rem 2rem;
+  background-color: #363636; /* match homepage */
+  color: white;
+  text-align: center;
+}
